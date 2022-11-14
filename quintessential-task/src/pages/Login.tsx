@@ -61,9 +61,9 @@ const Login = () => {
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { duration: 0.75, delay: 0.8 } }}
-        className="relative bg-opacity-70 bg-white md:bg-opacity-100
+        className="relative bg-opacity-70 bg-white dark:bg-bgPageDark transition-[background-color] ease-linear duration-200 md:bg-opacity-100
        w-[100%] flex flex-col items-center pt-[136px]
-       text-center md:mr-[180px] p-10
+       text-center md:mr-[180px] p-[24px]
        z-1"
       >
         <header>
@@ -74,7 +74,7 @@ const Login = () => {
             Συνδεση
           </h3>
         </header>
-        <form className="flex flex-col gap-[36px]" action="">
+        <form className="bg-white flex flex-col gap-[36px] p-[16px]" action="">
           <div className="flex flex-col gap-[13px] md:w-[402px]">
             <label className="text-[16px] leading-[20px]" htmlFor="email">
               Δ/νση ηλεκτρονικού ταχυδρομείου
