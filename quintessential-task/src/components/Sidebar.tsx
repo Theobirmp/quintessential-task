@@ -4,10 +4,7 @@ const Sidebar = () => {
     <aside className="hidden md:block bg-white dark:bg-bgPageDark transition-[background-color] ease-linear duration-200 min-h-[100vh] max-w-[226px] border-r-2 border-opacity-70">
       <div className="flex flex-col gap-[110px] items-center h-[100%]">
         <div className="flex sm:gap-[10px] lg:gap-[19px] h-[88px] items-end w-[100%] sm:pl-[10px] lg:pl-[21px]">
-          <img
-            src="./img/warehouseManagementIcon.png"
-            alt="warehouse management"
-          />
+          <img src="./img/settingsIcon.png" alt="warehouse" />
           <header>
             <Link
               to="/"
