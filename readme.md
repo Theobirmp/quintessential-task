@@ -20,13 +20,14 @@ https://quintessential-task.vercel.app/
 2)Run via Docker (needs Docker installed)
 git clone https://github.com/Theobirmp/quintessential-task.git
 cd quintessential-task
-run docker-compose up
+docker-compose up
 visit localhost on port 5173
 
 3)Run Development Server Locally
 git clone https://github.com/Theobirmp/quintessential-task.git
 cd quintessential-task
 cd quintessential-task
+npm i
 npm run dev
 visit localhost on port 5173
 
