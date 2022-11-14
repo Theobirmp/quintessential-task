@@ -44,17 +44,17 @@ const Login = () => {
       className="bg-white dark:bg-bgPageDark
      transition-[background-color] ease-linear duration-200
       relative min-h-screen w-[100%] grid grid-flow-col
-       2xl:items-center 2xl:justify-around  "
+         "
     >
       <motion.div
         initial={{ x: '-100%', opacity: 0 }}
         animate={{ x: 0, opacity: 1, transition: { duration: 0.75 } }}
         className="absolute  inset-0 z-0 md:relative
-         md:max-w-[601px] md:max-h-[768px] lg:max-w-[600px] lg:max-h-[100vh]"
+         md:max-w-[601px] md:max-h-[768px] lg:max-w-[601px] 2xl:max-w-[100vw] lg:max-h-[100vh]"
       >
         <img
           className="w-[100%] h-[100%] background-cover"
-          src="./img/LoginBg.png"
+          src="./img/bgLogin2x.png"
           alt="login"
         />
       </motion.div>
