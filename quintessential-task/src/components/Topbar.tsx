@@ -86,9 +86,11 @@ const Topbar = () => {
         <></>
       )}
       <header>
-        <h2 className="text-[#282121] dark:text-white">{pageHeader}</h2>
+        <h2 className="text-[#282121] dark:text-white text-[21px] leading-[25px] ">
+          {pageHeader}
+        </h2>
       </header>
-      <div className="rounded-[8px] flex gap-[22px] p-[10px] border-2 border-opacity-70 max-w-[477px] w-[35%]">
+      <div className="rounded-[8px] flex gap-[10px] md:gap-[22px] p-[10px] border-2 border-opacity-70 max-w-[477px] w-[35%]">
         <img src="./img/searchIcon.png" alt="search" />
         <input
           className="overflow-ellipsis w-[100%] bg-white dark:bg-bgPageDark text-black dark:text-white border-none outline-none"

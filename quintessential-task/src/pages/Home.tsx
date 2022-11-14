@@ -8,8 +8,8 @@ const Home = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.75 } }}
       className=" h-[100%]  px-[84px]
-     flex gap-[80px]
-      flex-wrap mt-[80px] md:mt-[50px] lg:mt-[138px] justify-center"
+     flex  gap-[80px]
+      flex-wrap mt-[80px] md:mt-[70px] lg:mt-[138px] justify-center"
     >
       {data.map((item) => (
         <MainPageItem

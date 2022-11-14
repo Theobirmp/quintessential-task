@@ -49,7 +49,8 @@ const Login = () => {
       <motion.div
         initial={{ x: '-100%', opacity: 0 }}
         animate={{ x: 0, opacity: 1, transition: { duration: 0.75 } }}
-        className="absolute  inset-0 z-0 md:relative md:max-w-[601px] md:max-h-[768px] lg:max-w-[100vh] lg:max-h-[100vhpx]"
+        className="absolute  inset-0 z-0 md:relative
+         md:max-w-[601px] md:max-h-[768px] lg:max-w-[600px] lg:max-h-[100vh]"
       >
         <img
           className="w-[100%] h-[100%] background-cover"

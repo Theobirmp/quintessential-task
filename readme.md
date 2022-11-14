@@ -40,3 +40,6 @@ and built in support for immer.
 Forms have some validation on them e.g. email needs to have @ and . and not have numbers after the dots, password needs to be over 4 characters.
 SPA is responsive on all devices. For Desktop, since design was given in 1366 x 768,
 i decided to add white space around the image and the form for better visuals on larger screens (2k+). On mobile sidebar is removed due to lack of space and hamburger menu has been added. User can navigate through the slide-in menu.
+
+notes:
+1)warehouse management logo is commented out cause app via docker/vercel cant find the file
