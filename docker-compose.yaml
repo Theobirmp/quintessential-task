@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  app:
+    build: './quintessential-task'
+    container_name: quin_app_c
+    ports:
+      - '5173:5173'
+    stdin_open: true
+    tty: true
