@@ -28,7 +28,7 @@ const Login = () => {
     setPassword(e.currentTarget.value);
   };
   const handleFormSubmit = () => {
-    const path = '/';
+    const path = '/home';
     navigate(path);
   };
   const showPassword = () => {
@@ -137,7 +137,7 @@ const Login = () => {
           >
             Είσοδος
           </button>
-          <Link className="mt-[28px]" to="/signup">
+          <Link className="mt-[28px]" to="/home">
             Ξέχασα τον κωδικό μου
           </Link>
         </form>

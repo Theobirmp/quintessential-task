@@ -30,7 +30,7 @@ const Sidebar = () => {
             py-[12px] pl-[33px] text-[14px] leading-[17px]"
             >
               <img src="./img/houseIcon.png" alt="menu" color="white" />
-              <NavLink to="/">Κεντρική Σελίδα</NavLink>
+              <NavLink to="/home">Κεντρική Σελίδα</NavLink>
             </div>
             <div className="flex gap-[15px]  items-center pl-[33px]">
               <img src="./img/menuIcon1.png" alt="menu" />

@@ -23,7 +23,7 @@ const Topbar = () => {
     case '/addItem':
       pageHeader = 'Καταχώριση';
       break;
-    case '/':
+    case '/home':
       pageHeader = 'Κεντρική Σελίδα';
       break;
     default:

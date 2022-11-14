@@ -20,7 +20,7 @@ function App() {
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
             <Route
-              path="/"
+              path="/home"
               element={
                 <>
                   <Sidebar />
@@ -55,7 +55,7 @@ function App() {
                 </>
               }
             />
-            <Route path="/login" element={<Login />} />
+            <Route path="/" element={<Login />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </AnimatePresence>
