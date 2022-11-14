@@ -27,7 +27,8 @@ const Login = () => {
     setPasswordError('');
     setPassword(e.currentTarget.value);
   };
-  const handleFormSubmit = () => {
+  const handleFormSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
     const path = '/home';
     navigate(path);
   };

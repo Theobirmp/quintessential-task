@@ -11,4 +11,17 @@ Technologies/Libraries used in the SPA
 App was made with Vite
 
 How to run the app
-2)Visit url (hosted on Vercel)
+1)Visit url (hosted on Vercel)
+
+2)Run via Docker (needs Docker installed)
+git clone https://github.com/Theobirmp/quintessential-task.git
+cd quintessential-task
+run docker-compose up
+visit localhost on port 5173
+
+3)Run Development Server Locally
+git clone https://github.com/Theobirmp/quintessential-task.git
+cd quintessential-task
+cd quintessential-task
+npm run dev
+visit localhost on port 5173
