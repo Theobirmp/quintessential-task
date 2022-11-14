@@ -1,3 +1,5 @@
+App was made with Vite
+
 Technologies/Libraries used in the SPA
 1)React
 2)React Router Dom (Routing)
@@ -7,11 +9,13 @@ Technologies/Libraries used in the SPA
 5)React Context (theme)
 6)Redux Toolkit (warehouse items)
 7)ESLint/Prettier (development only)
-
-App was made with Vite
+8)Docker
+9)React Icons (some extra icons)
+10)uuid (unique ids as keys for mapping arrays)
 
 How to run the app
 1)Visit url (hosted on Vercel)
+https://quintessential-task.vercel.app/
 
 2)Run via Docker (needs Docker installed)
 git clone https://github.com/Theobirmp/quintessential-task.git
@@ -25,3 +29,14 @@ cd quintessential-task
 cd quintessential-task
 npm run dev
 visit localhost on port 5173
+
+About the app
+App supports dark theme using React Context and Tailwind dark mode.
+
+App has pages for each warehouse. Each warehouse has it's items that are
+statically typed in data folder. User can remove these items from their corresponding warehouse or select his/her warehouse of choice and add new items through the form.
+Items are managed by Redux Toolkit which was preferred over Redux due to less boilerplate
+and built in support for immer.
+Forms have some validation on them e.g. email needs to have @ and . and not have numbers after the dots, password needs to be over 4 characters.
+SPA is responsive on all devices. For Desktop, since design was given in 1366 x 768,
+i decided to add white space around the image and the form for better visuals on larger screens (2k+). On mobile sidebar is removed due to lack of space and hamburger menu has been added. User can navigate through the slide-in menu.

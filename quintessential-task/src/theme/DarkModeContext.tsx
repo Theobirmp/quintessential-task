@@ -1,10 +1,6 @@
-import { createContext, Dispatch, SetStateAction, useState } from 'react';
+import { createContext, useState } from 'react';
 import ChildrenPropsType from '../types/ChildrenPropsType';
-type darkModeContextType = {
-  darkMode: string;
-  setDarkMode: Dispatch<SetStateAction<string>>;
-  toggleDarkMode: () => void;
-};
+import darkModeContextType from '../types/DarkModeContextType';
 
 export const DarkModeContext = createContext<darkModeContextType | null>(null);
 

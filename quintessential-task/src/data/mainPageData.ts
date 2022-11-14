@@ -1,8 +1,4 @@
-type dataInner = {
-  title: string;
-  para: string;
-  ellipse: string;
-};
+import dataInner from '../types/DataInner';
 const data: dataInner[] = [
   {
     title: 'εξαγωγη',
