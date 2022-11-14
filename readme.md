@@ -1,17 +1,17 @@
 App was created with Vite
 
 Technologies/Libraries used in the SPA
-1)React
-2)React Router Dom (Routing)
-2)Typescript
-3)Tailwind (styling and some animations)
-4)Framer Motion (page transitions - animations)
-5)React Context (theme)
-6)Redux Toolkit (warehouse items)
-7)Docker
-8)ESLint/Prettier (development only)
-9)React Icons (some extra icons)
-10)uuid (unique ids as keys for mapping arrays)
+1)React <br/>
+2)React Router Dom (Routing) <br/>
+2)Typescript <br/>
+3)Tailwind (styling and some animations) <br/>
+4)Framer Motion (page transitions - animations) <br/>
+5)React Context (theme) <br/>
+6)Redux Toolkit (warehouse items) <br/>
+7)Docker <br/>
+8)ESLint/Prettier (development only) <br/>
+9)React Icons (some extra icons) <br/>
+10)uuid (unique ids as keys for mapping arrays) <br/>
 
 How to run the app
 1)Visit url (hosted on Vercel)
