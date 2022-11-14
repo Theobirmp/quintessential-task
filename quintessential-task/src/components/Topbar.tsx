@@ -6,7 +6,6 @@ import { motion } from 'framer-motion';
 const Topbar = () => {
   let pageHeader;
   const location = useLocation();
-  console.log(location);
   switch (location.pathname) {
     case '/warehouse1':
       pageHeader = 'Αποθήκη 1';

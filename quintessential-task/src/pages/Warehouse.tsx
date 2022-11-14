@@ -11,7 +11,6 @@ const Warehouse = () => {
   const { warehouseNumber } = useParams();
   const [warehouseItems, setWarehouseItems] = useState<WareHouseItems[]>([]);
   const data = useSelector((state: any) => state.items);
-  console.log(data);
   useEffect(() => {
     let temp = data.items.filter(
       (dato: WareHouseItems) => dato.warehouse == Number(warehouseNumber)
@@ -22,7 +21,7 @@ const Warehouse = () => {
     <motion.section
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.75 } }}
-      className="flex justify-center gap-10 flex-wrap p-10"
+      className="flex justify-center gap-10 flex-wrap p-10 pb-[200px] md:pb-10"
     >
       {warehouseItems &&
         warehouseItems.map((item) => (

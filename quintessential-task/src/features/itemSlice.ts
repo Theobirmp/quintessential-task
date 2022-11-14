@@ -9,14 +9,10 @@ const itemsSlice = createSlice({
   initialState: initialState,
   reducers: {
     addItem: (state, action) => {
-      console.log(action.payload);
       state.items.push(action.payload);
     },
     removeItem: (state, action) => {
-      console.log('removing this item');
-      console.log(action.payload);
       state.items = state.items.filter((item) => {
-        console.log(item);
         return item.item != action.payload;
       });
     },

@@ -14,7 +14,6 @@ const WarehouseItem = ({
 }: WarehouseItemPropsType) => {
   const dispatch = useDispatch();
   const handleRemoveItem = () => {
-    console.log(item);
     dispatch(itemsActions.removeItem(item));
   };
   return (

@@ -9,7 +9,7 @@ const Home = () => {
       animate={{ opacity: 1, transition: { duration: 0.75 } }}
       className=" h-[100%]  px-[84px]
      flex  gap-[80px]
-      flex-wrap mt-[80px] md:mt-[70px] lg:mt-[138px] justify-center"
+      flex-wrap mt-[80px] md:mt-[70px] lg:mt-[138px] justify-center pb-[200px] md:pb-0"
     >
       {data.map((item) => (
         <MainPageItem

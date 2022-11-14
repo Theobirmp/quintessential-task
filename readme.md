@@ -8,8 +8,8 @@ Technologies/Libraries used in the SPA
 4)Framer Motion (page transitions - animations)
 5)React Context (theme)
 6)Redux Toolkit (warehouse items)
-7)ESLint/Prettier (development only)
-8)Docker
+7)Docker
+8)ESLint/Prettier (development only)
 9)React Icons (some extra icons)
 10)uuid (unique ids as keys for mapping arrays)
 
@@ -37,7 +37,9 @@ App has pages for each warehouse. Each warehouse has it's items that are
 statically typed in data folder. User can remove these items from their corresponding warehouse or select his/her warehouse of choice and add new items through the form.
 Items are managed by Redux Toolkit which was preferred over Redux due to less boilerplate
 and built in support for immer.
+
 Forms have some validation on them e.g. email needs to have @ and . and not have numbers after the dots, password needs to be over 4 characters.
+
 SPA is responsive on all devices. On mobile sidebar is removed due to lack of space and hamburger menu has been added. User can navigate through the slide-in menu.
 
 notes:
